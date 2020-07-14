@@ -4,6 +4,7 @@ import random
 from curses import textpad
 import time
 
+# fuctions to play
 def create_food(snake, box):
     food = None
     while food is None:
@@ -83,5 +84,6 @@ def main(stdscr):
 
     # stdscr.refresh()
     # stdscr.getch()
+
 
 curses.wrapper(main)
